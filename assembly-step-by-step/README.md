@@ -37,7 +37,8 @@ disassemble                     # show asm code
 
 How it looks:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/47424b8a-bee8-4eb7-82cf-6fe4e890504f)
+
 
 ## Sources
 
