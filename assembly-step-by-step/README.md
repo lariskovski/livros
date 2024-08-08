@@ -16,13 +16,18 @@ Build eatsyscall with:
 
 commands list:
 
-```
-layout regs         ; shows registries and code [regs, split, src, asm]
-list                ; show program lines
-b <line number>     ; set break point on line number
-run                 ; start execution
-info registers      ; show registers values
-info b              ; show break point info
-next                ; go to next instruction without diving into functions
-step                ; go to next instruction diving into functions
+```sh
+# most important ones
+list                            # show program lines
+b <line number>                 # set break point on line number
+layout regs                     # shows registries and code [regs, split, src, asm]
+run                             # start execution
+stepi                           # go to next machine instruction diving into functions (goes one by one)
+# others
+help layout                     # show layout options
+info registers                  # show registers values
+info b                          # show break point info
+next                            # go to next instruction without diving into functions
+set disassembly-flavor intel
+disassemble                     # show asm code
 ```
