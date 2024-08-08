@@ -12,11 +12,12 @@ Build eatsyscall with:
 
 ## Debugging with GDB
 
-`gdb eatsyscall`
+`gdb -tui eatsyscall`
 
 commands list:
 
 ```
+layout regs         ; shows registries and code [regs, split, src, asm]
 list                ; show program lines
 b <line number>     ; set break point on line number
 run                 ; start execution
