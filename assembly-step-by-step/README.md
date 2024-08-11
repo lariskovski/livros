@@ -4,6 +4,10 @@
 
 `sudo apt update -y && sudo apt install nasm`
 
+## Template
+
+Copy the files in `0-template` to the new dir. replace "example" with the file name.
+
 ## Makefile
 
 Build eatsyscall with:
