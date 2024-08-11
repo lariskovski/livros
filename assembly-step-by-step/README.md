@@ -1,8 +1,8 @@
 # Assembly Step by Step
 
-## Install NASM
+## NASM
 
-`sudo apt update -y && sudo apt install nasm`
+NASM is installed when devcontainer starts up with the command: `sudo apt update -y && sudo apt install nasm`
 
 ## Template
 
